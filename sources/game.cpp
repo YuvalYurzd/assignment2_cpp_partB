@@ -270,7 +270,7 @@ void Game::printWiner()
         std::cout << p2.getname() << endl;
         return;
     }
-    throw invalid_argument("draw");
+    std::cout << "draw";
 }
 void Game::printLog()
 {
